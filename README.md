@@ -19,7 +19,7 @@ $ wanitac --lib ./indonesia.wlib --c ./someone.wlang
 ## Todo
  - [x] Written in Crystal
  - [x] 0.1.0 Version
- - [ ] Language Dictionary (min 1)
+ - [x] Language Dictionary (min 1)
  - [ ] Windows Support
  - [ ] Dictionary API (min 1)
  

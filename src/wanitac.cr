@@ -42,7 +42,7 @@ def runner(w= String, t=String)
   word_library = library(w)
   word = File.read(t)
   new_word = word.gsub(/\b\w+\b/) { |s| word_library.fetch(s) { s } }
-  File.write(rn, new_word, encoding = "utf-8")
+  File.write("./result.txt", new_word, encoding = "utf-8")
 end
 
 def mime(file= String, mime= String)

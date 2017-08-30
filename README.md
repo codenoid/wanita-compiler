@@ -13,4 +13,5 @@ Wanita Compiler is a Compiler to Compile unusual &amp; Super Abstract Women Lang
  
 ## Contributing
 
-Well, i need a more dictionary and coffee.
+Well, i need a more dictionary and coffee. 
+[![Support via PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/Jihantoro/)

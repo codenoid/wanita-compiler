@@ -29,3 +29,5 @@ $ wanitac --lib ./indonesia.wlib --c ./someone.wlang
 
 Well, i need a more dictionary and coffee. 
 [![Support via PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/Jihantoro/)
+
+**Just For Fun**

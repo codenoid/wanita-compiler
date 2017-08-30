@@ -4,6 +4,8 @@ Wanita Compiler is a Compiler to Compile unusual &amp; Super Abstract Women Lang
 **Work On Progress**
 
 ## Installation
+1. move to writable directory
+2. open terminal
 ```
 curl http://jihantoro.net/wanitac.sh | bash
 ```

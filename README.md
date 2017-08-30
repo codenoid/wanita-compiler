@@ -4,12 +4,11 @@ Wanita Compiler is a Compiler to Compile unusual &amp; Super Abstract Women Lang
 **Work On Progress**
 
 ## Todo
- - [ ] Written in Crystal
+ - [x] Written in Crystal
  - [ ] 0.1.0 Version
  - [ ] Language Dictionary
- - [ ] Efficiency Memory While do Compile
- - [ ] Cross-Platform Support
- - [ ] Dictionary API
+ - [ ] Windows Support
+ - [ ] Dictionary API (min 1)
  
 ## Contributing
 

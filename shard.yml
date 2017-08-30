@@ -1,0 +1,13 @@
+name: wanitac
+version: 0.1.0
+
+authors:
+  - Rubi Jihantoro <jihantoro8@gmail.com>
+
+targets:
+  wanitac:
+    main: src/wanitac.cr
+
+crystal: 0.23.1
+
+license: MIT

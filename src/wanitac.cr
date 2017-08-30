@@ -2,12 +2,13 @@ require "./wanitac/*"
 require "option_parser"
 require "yaml"
 
-wlib, text = "", ""
+wlib, text, rn = "", "", ""
 
 OptionParser.parse! do |parser|
   parser.banner = "Usage: salute [arguments]"
   parser.on("-wlib", "--lib=LIB", "Language Library") { |v| wlib = v.to_s }
   parser.on("-c", "--c=C", "Woman language to use") { |v| text = v.to_s }
+  parser.on("-r", "--name=N", "Result name, .txt file") { |v| rn = v.to_s }
   parser.on("-h", "--help", "Show this help") { puts parser }
 end
 
@@ -41,14 +42,10 @@ def runner(w= String, t=String)
   word_library = library(w)
   word = File.read(t)
   new_word = word.gsub(/\b\w+\b/) { |s| word_library.fetch(s) { s } }
-  File.write("./result.txt", new_word, encoding = "utf-8")
+  File.write(rn, new_word, encoding = "utf-8")
 end
 
 def mime(file= String, mime= String)
   dirty_res = file.split(".").last
-  if dirty_res != mime
-    return false
-  else
-    return true
-  end
+  return dirty_res != mime ? false : true
 end

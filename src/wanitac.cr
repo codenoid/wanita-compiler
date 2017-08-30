@@ -19,6 +19,7 @@ def validator(w = String,t = String)
       runner(w,t)
     else
       puts "File type not supported"
+      exit 1
     end
   else
     puts "Input file must be given"
